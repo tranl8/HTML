@@ -22,7 +22,6 @@ header{
 }
 #introduce {
     color: #1C2833;
-    text-shadow: 5px 5px white;
 	font-style:italic;
 	text-align:center;
 	font-family: script, cursive;
@@ -179,7 +178,7 @@ header{
 	height: 100px;
 }
 #introduce {
-    text-shadow: 2px 3px black;
+    text-shadow: 3px 3px white;
 	font-size: 30px;
 	
 }
@@ -236,6 +235,7 @@ header{
     }
 #introduce {
     font-size: 50px;
+	text-shadow:5px 5px #AEB6BF;
 }
 
 ul.bar{
