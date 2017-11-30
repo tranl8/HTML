@@ -4,10 +4,7 @@
 }
 body {
     font-family: Helvetica;
-	background-image:url("photo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	
 	
 }
 
@@ -38,6 +35,9 @@ ul.bar{
 	list-style-type: none;
 	overflow: hidden;
 	background:linear-gradient(black 40%, darkred 80%);
+	position:fixed;
+	top: 20px;
+
 	
 }
 ul.bar li{
@@ -78,9 +78,10 @@ h1{
 
 p{
 	font-family: system-ui;
-	text-align: justify;
+	text-align: left;
 	color:#212F3C;
 	line-height:200%;
+
 }
 br{
 	line-height:300%;
@@ -89,6 +90,7 @@ br{
     display: block;
 	width: 100%;
 	font-weight: bold;
+	text-indent: 50px;
 }
 #about{
 	border-radius: 20px;
@@ -130,8 +132,13 @@ footer ul{
 	width: 50%;
 	
 }
-ul li{
+#projects ul li{
 	line-height:200%;
+	margin-left:30px;
+}
+#education ul li{
+	line-height:200%;
+	margin-left:30px;
 }
 #resume{
 	float:left;
@@ -178,14 +185,25 @@ button{
   font-size:24px;
 }
 a{
-	text-decoration:none;
-	color: black;
+	
+	color: purple;
+}
+#tech{
+	text-indent: 30px;
+}
+#soft{
+	text-indent: 30px;
+}
+h3{
+	text-indent: 30px;
+
+}
+#code{
+	color: blue;
+	text-align:center;
 }
 @media only screen and (min-width: 320px) {
-section{
-	margin-left: 5px;
-	margin-right: 5px;
-}
+
 header{
 	height: 100px;
 }
@@ -237,10 +255,7 @@ button{
 }
 }
 @media only screen and (min-width: 768px) {
-section{
-	margin-left: 20px;
-	margin-right: 20px;
-}	
+	
 .logo img{
 	width: 200px;
 	height: 200px;
@@ -302,10 +317,11 @@ footer{
 }
 
 @media only screen and (min-width: 1200px) {
-section{
-	margin-left: 50 px;
-	margin-right: 50px;
+body{
+	margin-left:20%;
+	margin-right:20%;
 }
+
 .logo img{
 	margin-left: 10%;
 	width: 300px;
@@ -318,17 +334,19 @@ header{
 }
 
 #introduce {
-    font-size: 80px;
+	
+    font-size: 50px;
 	float: left;
 	display: block;
-	width: 60%;
+	width: 50%;
 	text-shadow:5px 10px #AEB6BF;
 }
 #image img{
 	float:left;
-	width:40%;
+	width:50%;
 	border-radius: 20px;
-	height: 600px;
+	height: 400px;
+	display: block;
 }
 
 ul.bar {
@@ -341,11 +359,11 @@ ul.bar {
 }
 ul.bar li{
 	float:left;
-	width: 240px;
+	width: 120px;
 }
  ul.bar li a{
 	display:inline-block;
-	font-size: 24px;
+	font-size: 15px;
 }
 
 
@@ -353,24 +371,25 @@ ul.bar li{
 	display: none;
 }
 h1{
-	font-size: 72px;
+	font-size: 48px;
 }
 
 #about{
 	float:left;
 	display: block;
-	width:80%;
+	width:95%;
 	font-size: 36px;
 }
 #projects{
 	float:right;
+	width:90%;
 	display: block;
 	font-size: 36px;
 }
 #education{
 	float:left;
 	display: block;
-	width:60%;
+	width:95%;
 	font-size: 36px;
 }
 footer{
