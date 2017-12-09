@@ -238,6 +238,15 @@ button{
 
   font-size:16px;
 }
+	#blank{
+	height: 100px;
+}
+#blank1{
+	height: 100px;
+}
+#blank2{
+	height: 100px;
+}
 }
 @media only screen and (min-width: 768px) {
 	
@@ -267,7 +276,7 @@ button{
 ul.bar{
 	display:inline;
 	float: right;
-	width: 200px;
+	width: 240px;
 }
 ul.bar li{
 	float:right;
@@ -288,7 +297,7 @@ ul.bar li a{
 }
 
 footer{
-	font-size: 30px;
+	font-size: 36px;
 }
 
 @media only screen and (min-width: 1200px) {
